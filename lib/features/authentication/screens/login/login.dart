@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:t_store/commons/styles/spacing_styles.dart';
-import 'package:t_store/features/authentication/screens/login/widgets/login_divider.dart';
+import 'package:t_store/commons/widgets/login_signup/form_divider.dart';
+import 'package:t_store/commons/widgets/login_signup/social_buttons.dart';
 import 'package:t_store/features/authentication/screens/login/widgets/login_form.dart';
 import 'package:t_store/features/authentication/screens/login/widgets/login_header.dart';
-import 'package:t_store/features/authentication/screens/login/widgets/login_social_buttons.dart';
 import 'package:t_store/utils/helpers/helper_functions.dart';
 
 import '../../../../utils/constants/sizes.dart';

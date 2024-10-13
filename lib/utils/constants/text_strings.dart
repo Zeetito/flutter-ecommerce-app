@@ -32,7 +32,9 @@ class TTexts {
   static const String createAccount = "Create Account";
   static const String orSignInWith = "or sign in with";
   static const String orSignUpWith = "or sign up with";
+  static const String signupTitle = "Let's Create your account";
   static const String iAgreeTo = "I agree to:";
+  static const String and = "and";
   static const String privacyPolicy = "Privacy Policy";
   static const String termsOfUse = "Terms of Use";
   static const String verificationCode = "Verification Code";
@@ -41,15 +43,18 @@ class TTexts {
 
   // Authentication Headings Text
   static const String loginTitle = "Welcome back,";
-  static const String loginSubTitle = "Discover Limitless Choices and Unmatched Convenience.";
+  static const String loginSubTitle =
+      "Discover Limitless Choices and Unmatched Convenience.";
   static const String registerTitle = "Let's create your account";
   static const String registerSubTitle = "Shopping made easy";
   static const String forgetPasswordTitle = "Forgot Password?";
-  static const String forgetPasswordSubTitle = "Don't worry sometimes people can forget too, enter your email and we will send you a password reset link.";
+  static const String forgetPasswordSubTitle =
+      "Don't worry sometimes people can forget too, enter your email and we will send you a password reset link.";
   static const String changeYourPasswordTitle = "Password Reset Email Sent";
-  static const String changeYourPasswordSubTitle = "Your Account Security is Our Priority! We've Sent You a Secure Link to Safely Change Your Password and Keep Your Account Protected.";
-  static const String verificationEmailTitle = "Congratulations! Your Account Awaits: Verify Your Email to Start Shopping and Experience a World of Unrivaled Deals and Personalized Offers.";
-  static const String resendEmailTitle = "Didn’t get the email? Check your junk/spam or resend it.";
-
-
+  static const String changeYourPasswordSubTitle =
+      "Your Account Security is Our Priority! We've Sent You a Secure Link to Safely Change Your Password and Keep Your Account Protected.";
+  static const String verificationEmailTitle =
+      "Congratulations! Your Account Awaits: Verify Your Email to Start Shopping and Experience a World of Unrivaled Deals and Personalized Offers.";
+  static const String resendEmailTitle =
+      "Didn’t get the email? Check your junk/spam or resend it.";
 }
