@@ -9,7 +9,8 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      themeMode: ThemeMode.system,
+      // themeMode: ThemeMode.system,
+      themeMode: ThemeMode.light,
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
       home: OnBoardingScreen(),
