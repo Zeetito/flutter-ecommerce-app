@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:t_store/commons/widgets/custom_shapes/containers/circular_container.dart';
 import 'package:t_store/commons/widgets/custom_shapes/curved_edges/curved_edges_widget.dart';
 import 'package:t_store/utils/constants/colors.dart';
+import 'package:t_store/utils/constants/sizes.dart';
 
 class TPrimaryHeaderContainer extends StatelessWidget {
   const TPrimaryHeaderContainer({
@@ -30,6 +31,13 @@ class TPrimaryHeaderContainer extends StatelessWidget {
                     right: -300,
                     child: TCircularContainer(
                         backgroundColor: TColors.textWhite.withOpacity(0.1))),
+
+                Positioned.fill(
+                child: Padding(
+                  padding: const EdgeInsets.all(TSizes.defaultSpace), // Add padding if needed
+                  child: child,
+                ),
+              ),
               ],
             ),
           )),
