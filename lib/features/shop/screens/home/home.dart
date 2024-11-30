@@ -5,7 +5,9 @@ import 'package:t_store/commons/widgets/custom_shapes/containers/search_containe
 import 'package:t_store/commons/widgets/texts/section_heading.dart';
 import 'package:t_store/features/shop/screens/home/widgets/home_appbar.dart';
 import 'package:t_store/features/shop/screens/home/widgets/home_categories.dart';
+import 'package:t_store/features/shop/screens/home/widgets/promo_slider.dart';
 import 'package:t_store/utils/constants/colors.dart';
+import 'package:t_store/utils/constants/image_strings.dart';
 import 'package:t_store/utils/constants/sizes.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -51,11 +53,18 @@ class HomeScreen extends StatelessWidget {
                 ],
               ),
             ),
+
+            // Body
+
+           Padding(
+            padding: const EdgeInsets.all(TSizes.defaultSpace),
+            child: TPromoSlider(banners: [TImages.promoBanner1,TImages.promoBanner1,TImages.promoBanner1],), 
+          ), 
+
           ],
         ),
       ),
     );
   }
 }
-
 

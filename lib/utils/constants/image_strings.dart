@@ -44,6 +44,11 @@ class TImages {
   static const String deliveredEmailIllustration = "assets/images/on_boarding_images/sammy-line-searching.gif";
   static const String verifyIllustration = "assets/images/on_boarding_images/sammy-line-searching.gif";
 
+  // Banners
+  static const String promoBanner1 = "assets/images/banners/promo-banner-1.png";
+  static const String promoBanner2 = "assets/images/banners/promo-banner-2.png";
+  static const String promoBanner3 = "assets/images/banners/promo-banner-3.png";
+
 
 }
 
