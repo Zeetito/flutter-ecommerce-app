@@ -50,6 +50,11 @@ class TImages {
   static const String promoBanner3 = "assets/images/banners/promo-banner-3.png";
 
 
+  // Products
+  static const String productImage1 = "assets/images/products/product-1.png";
+  
+
+
 }
 
 // put the images in the folder in the course of the project
